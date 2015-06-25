@@ -15,7 +15,7 @@ $color3 = "red";
 ?>
 
 <table border="1">
-  <tr style>
+  <tr style="background-color:<?php echo $color1; ?>">
     <th>県名</th>
     <th>総人口（千人）</th>
     <th>男性（千人）</th>
