@@ -32,8 +32,21 @@
 <file name="rensyu05.php" server="sv1" local="130796819194564548" remote="130796835000000000" />
 <file name="rensyu06.php" server="sv1" local="130797562677791734" remote="130797562800000000" />
 <file name="rensyu06_2.php" server="sv1" local="130797567405771298" remote="130797567600000000" />
-<file name="rensyu07.php" server="sv1" local="130797597341842427" remote="130797603600000000" />
-<file name="rensyu08.php" server="sv1" local="130797603719049929" remote="130797603600000000" />
-<file name="rensyu09.php" server="sv1" local="130797602623267369" remote="130797602400000000" />
-<file name="rensyu10.php" server="sv1" local="130797602438692165" remote="130797603600000000" />
+<file name="if_rensyu04.php" server="sv1" local="130797619689633727" remote="130797619200000000" />
+<file name="if_rensyu02.php" server="sv1" local="130797616024720488" remote="130797615600000000" />
+<file name="switch_rensyu02.php" server="sv1" local="130797624875163308" remote="130797624600000000" />
+<file name="switch_rensyu01.php" server="sv1" local="130797627025024555" remote="130797627000000000" />
+<file name="if_rensyu05.php" server="sv1" local="130797634210000000" remote="130797634200000000" />
+<file name="if_rensyu06.php" server="sv1" local="130797679261849983" remote="130797679200000000" />
+<file name="if_rensyu07.php" server="sv1" local="130797640300468523" remote="130797640200000000" />
+<file name="if_rensyu08.php" server="sv1" local="130797711193200797" remote="130797711000000000" />
+<file name="switch_rensyu03.php" server="sv1" local="130797714281701036" remote="130797714000000000" />
+<file name="sanko_rensyu01.php" server="sv1" local="130797714994010948" remote="130797715800000000" />
+<file name="if_rensyu09.php" server="sv1" local="130797718704960811" remote="130797719400000000" />
+<file name="loop_rensyu01.php" server="sv1" local="130800182578161100" remote="130800183600000000" />
+<file name="loop_rensyu02.php" server="sv1" local="130800183327360012" remote="130800184200000000" />
+<file name="loop_rensyu03.php" server="sv1" local="130800186761251969" remote="130800186600000000" />
+<file name="loop_rensyu04.php" server="sv1" local="130800193322363203" remote="130800193200000000" />
+<file name="loop_rensyu05.php" server="sv1" local="130800219043458543" remote="130800219000000000" />
+<file name="loop_rensyu06.php" server="sv1" local="130800268647982923" remote="130800268200000000" />
 </dwsync>

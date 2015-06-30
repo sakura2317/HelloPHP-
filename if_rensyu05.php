@@ -7,13 +7,11 @@
 
 <body>
 <?php
-$money = 10000;
-if ($money <= 0){
-	echo "貯金がありません";
-}elseif($money <= 1000){
-	echo"貯金がわずかです";
+$age = 15;
+if ((16 <= $age) && ($age <= 69)){
+	echo "献血できます";
 }else{
-	echo"貯金がございます";
+	echo"献血できません";
 }
 ?>
 </body>

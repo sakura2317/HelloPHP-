@@ -6,15 +6,20 @@
 </head>
 
 <body>
+
 <?php
-$money = 10000;
-if ($money <= 0){
-	echo "貯金がありません";
-}elseif($money <= 1000){
-	echo"貯金がわずかです";
-}else{
-	echo"貯金がございます";
+
+$i = 1;
+
+while($i <= 15){
+	if($i % 3 == 0){
+		print $i." YES!<br>";
+	}else{
+	print $i."<br>";
+	}
+	$i++;
 }
+
 ?>
 </body>
 </html>

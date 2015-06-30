@@ -7,13 +7,12 @@
 
 <body>
 <?php
-$money = 10000;
-if ($money <= 0){
-	echo "貯金がありません";
-}elseif($money <= 1000){
-	echo"貯金がわずかです";
+$age = 4;
+$height = 130;
+if (($age >= 6) && ($height >= 120)){
+	echo "乗れます";
 }else{
-	echo"貯金がございます";
+	echo"乗れません";
 }
 ?>
 </body>

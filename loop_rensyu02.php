@@ -6,14 +6,10 @@
 </head>
 
 <body>
+
 <?php
-$money = 10000;
-if ($money <= 0){
-	echo "貯金がありません";
-}elseif($money <= 1000){
-	echo"貯金がわずかです";
-}else{
-	echo"貯金がございます";
+for($num = 1;$num <= 5;$num++){
+	print $num. "回目のループです<br>";
 }
 ?>
 </body>

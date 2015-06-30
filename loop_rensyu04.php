@@ -6,15 +6,16 @@
 </head>
 
 <body>
+<select name="example">
+
 <?php
-$money = 10000;
-if ($money <= 0){
-	echo "貯金がありません";
-}elseif($money <= 1000){
-	echo"貯金がわずかです";
-}else{
-	echo"貯金がございます";
+
+for($i = 15; $i <= 23; $i++){
+	print '<option value="' . $i . '">' . $i. '</option>';
 }
+
 ?>
+</select>
+<span>時</span>
 </body>
 </html>

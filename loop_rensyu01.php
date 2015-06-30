@@ -7,13 +7,10 @@
 
 <body>
 <?php
-$money = 10000;
-if ($money <= 0){
-	echo "貯金がありません";
-}elseif($money <= 1000){
-	echo"貯金がわずかです";
-}else{
-	echo"貯金がございます";
+$num = 1;
+while($num <= 5){  //$num=0; ($num<5)でもいい。
+	$num++;
+	print "こんにちは<br>";
 }
 ?>
 </body>

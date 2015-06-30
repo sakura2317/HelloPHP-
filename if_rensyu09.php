@@ -7,13 +7,16 @@
 
 <body>
 <?php
-$money = 10000;
-if ($money <= 0){
-	echo "貯金がありません";
-}elseif($money <= 1000){
-	echo"貯金がわずかです";
-}else{
-	echo"貯金がございます";
+$score = 80;
+
+if ($score >= 80){
+	echo "A判定";
+}elseif ($score >= 70){
+	echo "B判定";
+}elseif ($score >= 60){
+	echo "C判定";
+}elseif ($score <= 60){
+	echo "D判定";
 }
 ?>
 </body>

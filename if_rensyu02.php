@@ -8,8 +8,8 @@
 <body>
 
 <?php
-$sex = "男";
-if ($sex == "男"){
+$seibetu = "男";
+if ($seibetu == "男"){
 	echo "男性";
 }else{
 	echo "女性";
