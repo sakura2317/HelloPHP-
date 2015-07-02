@@ -6,18 +6,12 @@
 </head>
 
 <body>
-
 <?php
+$city = array (0 =>'青森', 1 =>'弘前', 2 =>'八戸', 4 =>'むつ');
 
-for($i = 1; $i <= 5; $i++){
-	print "0";
-	
-	$sum = 0;
-	
-	for($j = 1; $j <= $i; $j++){
-		print "+" .
-	}
-}
+print_r ($city);
+print "<br>";
+print "要素数: ". count($city);
 ?>
 </body>
 </html>

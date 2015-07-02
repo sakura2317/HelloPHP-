@@ -6,18 +6,12 @@
 </head>
 
 <body>
-
 <?php
+$d[] = 100;
+$d[] = 200;
+$d[] = 300;
 
-for($i = 1; $i <= 5; $i++){
-	print "0";
-	
-	$sum = 0;
-	
-	for($j = 1; $j <= $i; $j++){
-		print "+" .
-	}
-}
+print_r ($d);
 ?>
 </body>
 </html>

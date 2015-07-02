@@ -6,17 +6,11 @@
 </head>
 
 <body>
-
 <?php
+$a = array("オレンジ" => 25, "バナナ" => 30, "りんご" => 38, "みかん" => 62);
 
-for($i = 1; $i <= 5; $i++){
-	print "0";
-	
-	$sum = 0;
-	
-	for($j = 1; $j <= $i; $j++){
-		print "+" .
-	}
+foreach($a as $key => $value ){
+	print "キー: ". $key. " 要素: ". $value."<br>";
 }
 ?>
 </body>

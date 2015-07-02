@@ -6,18 +6,9 @@
 </head>
 
 <body>
-
 <?php
-
-for($i = 1; $i <= 5; $i++){
-	print "0";
-	
-	$sum = 0;
-	
-	for($j = 1; $j <= $i; $j++){
-		print "+" .
-	}
-}
+$a = array(100, 200, 300);
+print_r ($a);
 ?>
 </body>
 </html>

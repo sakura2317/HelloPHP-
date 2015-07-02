@@ -6,18 +6,12 @@
 </head>
 
 <body>
-
 <?php
+$e['one'] = 1;
+$e['two'] = 2;
+$e['title'] = '連想配列';
 
-for($i = 1; $i <= 5; $i++){
-	print "0";
-	
-	$sum = 0;
-	
-	for($j = 1; $j <= $i; $j++){
-		print "+" .
-	}
-}
+print_r ($e);
 ?>
 </body>
 </html>

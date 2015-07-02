@@ -6,18 +6,14 @@
 </head>
 
 <body>
-
 <?php
 
-for($i = 1; $i <= 5; $i++){
-	print "0";
-	
-	$sum = 0;
-	
-	for($j = 1; $j <= $i; $j++){
-		print "+" .
-	}
+function sayHello($name = 'ゲスト'){
+	print 'いらっしゃいませ、'. $name .'さん<br>';
 }
+sayHello('サクラ');
+sayHello();
 ?>
+</table>
 </body>
 </html>

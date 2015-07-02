@@ -6,18 +6,12 @@
 </head>
 
 <body>
-
 <?php
+$city[] = "青森";
+$city[] = "弘前";
+$city[] = "八戸";
 
-for($i = 1; $i <= 5; $i++){
-	print "0";
-	
-	$sum = 0;
-	
-	for($j = 1; $j <= $i; $j++){
-		print "+" .
-	}
-}
+print_r ($city);
 ?>
 </body>
 </html>

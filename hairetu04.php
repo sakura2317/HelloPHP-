@@ -6,18 +6,12 @@
 </head>
 
 <body>
-
 <?php
+$f[0] = 1;
+$f[5] = 2;
+$f['mix'] = '連想配列';
 
-for($i = 1; $i <= 5; $i++){
-	print "0";
-	
-	$sum = 0;
-	
-	for($j = 1; $j <= $i; $j++){
-		print "+" .
-	}
-}
+print_r ($f);
 ?>
 </body>
 </html>

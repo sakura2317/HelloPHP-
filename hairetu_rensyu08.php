@@ -6,18 +6,14 @@
 </head>
 
 <body>
-
 <?php
+$score = array("鈴木" => 92, "佐藤" => 74, "中村" => 42, "三浦" => 65);
 
-for($i = 1; $i <= 5; $i++){
-	print "0";
-	
-	$sum = 0;
-	
-	for($j = 1; $j <= $i; $j++){
-		print "+" .
-	}
+foreach($score as $key => $value ){
+	print "氏名: ". $key. " 点数: ". $value."<br>";
 }
+
+
 ?>
 </body>
 </html>
