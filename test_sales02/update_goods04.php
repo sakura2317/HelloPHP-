@@ -63,6 +63,7 @@ if(isset($_POST['update'])){
 
 <form action="" method="post">
 <p>GoodsID:<?php echo $GoodsID; ?></p>
+<input type="text" name="GoodsID" size="10" value="<?php echo $GoodsID; ?>" required>
 <label>GoodsName<input type="text" name="GoodsName" size="30" value="<?php echo $GoodsName; ?>" required></label>
 <label>Price<input type="text" name="Price" size="10" value="<?php echo $Price; ?>" required></label>
 <input type="submit" name="submit" value="更新">

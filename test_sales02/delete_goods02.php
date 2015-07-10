@@ -68,7 +68,7 @@ try{
 	</form></td>
 eof;
 
-	//更新ボタンのコード
+	//削除ボタンのコード
 	$res .= <<<eof
 	<td><form action="" method="post">
 	<input type="hidden" name="id" value="{$row['GoodsID']}">
