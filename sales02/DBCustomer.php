@@ -26,8 +26,9 @@ class DBCustomer extends DB{
 		$rows = $res->fetch(PDO::FETCH_NUM);
 		return $rows[0];
 	}
+
 	public function DeleteCustomer($CustomerID){
-		$sql = "DELETE FROM customer WHERE CustomerID=?";
+		$sql = "DELETE FROM customer WHERE CustomerID = ?";
 		$array = array($CustomerID);
 		parent::executeSQL($sql, $array);
 	}
@@ -53,7 +54,7 @@ class DBCustomer extends DB{
 			for($i=0;$i<count($row);$i++){
 				$data .="<td>{$row[$i]}</td>";
 			}
-			
+
 		//更新ボタンのコード
 		$data .= <<<eof
 		<td><form action="" method="post">
